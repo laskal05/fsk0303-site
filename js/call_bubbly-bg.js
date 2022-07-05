@@ -7,7 +7,7 @@ bubbly({
     const rand = Math.random() * 0.25;
     return "hsla(50, 50%, 100%," + rand + ")";
   },
-  bubbles: isIE ? 60 : 150, // default is Math.floor((canvas.width + canvas.height) * 0.02);
+  bubbles: 60, // default is Math.floor((canvas.width + canvas.height) * 0.02);
   canvas: document.getElementById("#home"), // default is created and attached
   colorStart: "#006677", // default is blue-ish
   colorStop: "#0066aa", // default is blue-ish
